@@ -25,6 +25,6 @@ class Car {
   const mylist = myArray.map((item) => <p>{item}</p>)
  
 
-//const root = ReactDOM.createRoot(document.getElementById('root'));
-ReactDOM.render(mylist, document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
+root.render(mylist);
