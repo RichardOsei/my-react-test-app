@@ -7,9 +7,8 @@ class Car {
       this.year = year;
     }
   
-    present() {
-      return 'I have a ' + this.brand;
-    }
+    present = () =>'I have a ' + this.brand;
+    
   }
   
   class Model extends Car {
@@ -22,7 +21,10 @@ class Car {
   }
   
   const mycar = new Model("Ford", "Mustang","2022");
+  const myArray = ['apple', 'banana', 'orange'];
+  const mylist = myArray.map((item) => <p>{item}</p>)
  
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(mycar.show());
+//const root = ReactDOM.createRoot(document.getElementById('root'));
+ReactDOM.render(mylist, document.getElementById('root'));
+
