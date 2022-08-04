@@ -22,6 +22,8 @@ class Car {
   
   const mycar = new Model("Ford", "Mustang","2022");
   const myArray = ['apple', 'banana', 'orange'];
+
+  //map function
   const mylist = myArray.map((item) => <p>{item}</p>)
  
 
