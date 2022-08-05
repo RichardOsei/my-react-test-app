@@ -32,7 +32,7 @@ import ReactDOM from 'react-dom/client';
 
   const [Name,Num,paint] = thecar
   
- */
+ 
 
   const person = {
     name: 'Jesse',
@@ -48,13 +48,23 @@ import ReactDOM from 'react-dom/client';
   
   function displayMessage({name,address: { city,state }}) {
     return 'I am ' +name +' I live in ' +city+' ' + state + '.';
+  }*/
+
+
+  const myVehicle = {
+    brand: 'Ford',
+    model: 'Mustang',
+    color: 'red'
   }
+  
+  const updateMyVehicle = {
+    type: 'car',
+    year: 2021, 
+    color: 'yellow'
+  }
+  
+  const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-//document.getElementById("demo").style.color = 'red';
-document.getElementById("demo").style.margin = '50%';
-
-root.render("WORKED");
-document.getElementById("demo").innerHTML = "worked";
+document.getElementById("root").innerHTML = ;
+document.getElementById("demo").innerHTML = displayMessage(person);
 
