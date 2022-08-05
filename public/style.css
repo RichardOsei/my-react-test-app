@@ -1,0 +1,12 @@
+body,
+html {
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+    font-family: 'Montserrat';
+    background-color: #283746;
+    position: relative;
+    color: #e0e0e0;
+    scroll-behavior: smooth;
+}
+
