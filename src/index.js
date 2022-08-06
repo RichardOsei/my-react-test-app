@@ -64,6 +64,7 @@ import ReactDOM from 'react-dom/client';
   }
   
   const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
+  console.log(myUpdatedVehicle)
 
 document.getElementById("root").innerHTML = "WORKED";
 document.getElementById("demo").innerHTML = myUpdatedVehicle;
