@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import message from "./person";
 
 /*class Car {
     constructor(name,year) {
@@ -48,7 +49,7 @@ import ReactDOM from 'react-dom/client';
   
   function displayMessage({name,address: { city,state }}) {
     return 'I am ' +name +' I live in ' +city+' ' + state + '.';
-  }*/
+  }
 
 
   const myVehicle = {
@@ -64,8 +65,8 @@ import ReactDOM from 'react-dom/client';
   }
   
   const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
-  console.log(myUpdatedVehicle)
+  console.log(myUpdatedVehicle)*/
 
 document.getElementById("root").innerHTML = "WORKED";
-document.getElementById("demo").innerHTML = myUpdatedVehicle;
+document.getElementById("demo").innerHTML = message();
 

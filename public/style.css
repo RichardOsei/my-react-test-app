@@ -12,7 +12,7 @@ html {
 
 .container{
     margin-top:20%;
-    margin-left: 15%;
+    margin-left: 35%;
     width: 500px;
     height: 200px;
     border-radius: 50px;
@@ -28,4 +28,5 @@ html {
 
 #demo{
     margin:auto;
+    padding: 10%;
 }
