@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+
+/*
 import message from "./person";
 
-/*class Car {
+class Car {
     constructor(name,year) {
       this.brand = name;
       this.year = year;
@@ -66,9 +69,19 @@ import message from "./person";
   
   const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
   console.log(myUpdatedVehicle)*/
-
-  ReactDOM.render(<p>Hello</p>, document.getElementById('dom'));
-
-document.getElementById("root").innerHTML = "WORKED";
-document.getElementById("demo").innerHTML = message();
+  const myelement = (
+    <table>
+      <tr>
+        <th>Name</th>
+      </tr>
+      <tr>
+        <td>John</td>
+      </tr>
+      <tr>
+        <td>Elsa</td>
+      </tr>
+    </table>
+  );
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(myelement);
 

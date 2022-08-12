@@ -10,3 +10,18 @@ html {
     scroll-behavior: smooth;
 }
 
+.container{
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    border-radius: 50px;
+    background: #283746;
+    box-shadow:  20px 20px 60px #222f3c,
+             -20px -20px 60px #2e3f51
+    
+}
+
+#root {
+    
+    margin-left: 10%;
+}
