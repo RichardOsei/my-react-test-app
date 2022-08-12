@@ -69,18 +69,14 @@ class Car {
   
   const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
   console.log(myUpdatedVehicle)*/
+
+  const myname  = 'Nana Kwame';
   const myelement = (
-    <table>
-      <tr>
-        <th>Name</th>
-      </tr>
-      <tr>
-        <td>John</td>
-      </tr>
-      <tr>
-        <td>Elsa</td>
-      </tr>
-    </table>
+    <div>
+    <p class='one'>I am a paragraph.</p>
+    <p>I am a paragraph too.</p>
+    <p>{myname}</p>
+  </div>
   );
   const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(myelement);
