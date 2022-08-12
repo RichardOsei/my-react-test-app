@@ -67,6 +67,8 @@ import message from "./person";
   const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
   console.log(myUpdatedVehicle)*/
 
+  ReactDOM.render(<p>Hello</p>, document.getElementById('dom'));
+
 document.getElementById("root").innerHTML = "WORKED";
 document.getElementById("demo").innerHTML = message();
 
