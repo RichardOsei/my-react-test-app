@@ -90,7 +90,7 @@ function Garage() {
   );
 }
 
-*/
+  COMPONENTS-------------------------------------------
 
 class Car extends React.Component {
   constructor() {
@@ -100,8 +100,11 @@ class Car extends React.Component {
   render() {
     return <h2>I am {this.state.color} Car!</h2>;
   }
+}*/
+class Car extends React.Component(){
+  render()
+  return <h1> I bought a {this.props.year} {this.props.type} car</h1>;
 }
-
 
 const car_root = ReactDOM.createRoot(document.getElementById('root'));
 car_root.render(<Car/>);
