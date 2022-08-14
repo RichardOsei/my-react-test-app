@@ -68,16 +68,43 @@ class Car {
   }
   
   const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
-  console.log(myUpdatedVehicle)*/
+  console.log(myUpdatedVehicle)
 
-  const myname  = 'Nana Kwame';
-  const myelement = (
-    <div>
-    <p class='one'>I am a paragraph.</p>
-    <p>I am a paragraph too.</p>
-    <p>{myname}</p>
-  </div>
+const x = 5;
+let text = "Goodbye";
+if (x < 10) {
+  text = "Hello";
+}
+
+const myElement = <h1>{text}</h1>;
+function Car() {
+    return <h2>i wanna go home</h2>;
+}
+
+function Garage() {
+  return (
+    <>
+	    <h1>Who left the Garage?</h1>
+	    <Car />
+    </>
   );
-  const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(myelement);
+}
+
+*/
+
+class Car extends React.Component {
+  constructor() {
+    super();
+    this.state = {color: "red"};
+  }
+  render() {
+    return <h2>I am {this.state.color} Car!</h2>;
+  }
+}
+
+
+const car_root = ReactDOM.createRoot(document.getElementById('root'));
+car_root.render(<Car/>);
+
+
 
