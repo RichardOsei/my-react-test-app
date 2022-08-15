@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 
-/*
-import message from "./person";
 
+import Person from "./person";
+/*
 class Car {
     constructor(name,year) {
       this.brand = name;
@@ -100,16 +100,17 @@ class Car extends React.Component {
   render() {
     return <h2>I am {this.state.color} Car!</h2>;
   }
-}*/
+}
 class Car extends React.Component {
   render() {
     return <h2>I have a {this.props.year} {this.props.type} {this.props.v}</h2>;
   }
 }
+*/
 
-let tap = 'BLACK SUV'
+let tap = 'Day Trader and a data engineer'
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Car year="2022" type = {tap}  v ='car' />);
+root.render(<Person manifest = {tap} />);
 
 
 
