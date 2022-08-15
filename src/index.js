@@ -101,13 +101,15 @@ class Car extends React.Component {
     return <h2>I am {this.state.color} Car!</h2>;
   }
 }*/
-class Car extends React.Component(){
-  render()
-  return <h1> I bought a {this.props.year} {this.props.type} car</h1>;
+class Car extends React.Component {
+  render() {
+    return <h2>I have a {this.props.year} {this.props.type} Car!</h2>;
+  }
 }
 
-const car_root = ReactDOM.createRoot(document.getElementById('root'));
-car_root.render(<Car/>);
+let tap = 'BLACK SUV'
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Car year="2022" type = {tap} />);
 
 
 
