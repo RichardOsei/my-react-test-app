@@ -110,7 +110,7 @@ class Car extends React.Component {
 
 let tap = 'Day Trader and a data engineer'
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Person manifest = {tap} />);
+root.render(<Person favcol = 'ash' />);
 
 
 
