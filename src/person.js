@@ -36,7 +36,7 @@ class Person extends React.Component {
     <h2>I am a successful {this.props.manifest}</h2>
     <p>I have a {this.state.condition} {this.state.color} Benz {this.state.car} {this.state.period} edition.</p>
     <button
-          id='jump'
+          class='Qjump'
           type="button"
           onClick={this.jump}
         >Quantum Jump</button>
