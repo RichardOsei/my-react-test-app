@@ -66,8 +66,14 @@ class Person extends React.Component {
             period: 2022
           };
   }
-  static getDerivedStateFromProps(props, state) {
-    return {color: props.favcol };
+  // static getDerivedStateFromProps(props, state) {
+  //   return {color: props.favcol };
+  // }
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({color: "yellow"})
+    }, 3000)
   }
 
   render() {
