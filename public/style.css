@@ -4,7 +4,7 @@ html {
     max-width: 100%;
     margin: 0;
     font-family: 'Montserrat';
-    background-color: #283746;
+    background-color: #1a1a1d;
     position: relative;
     color: #e0e0e0;
     scroll-behavior: smooth;
@@ -15,9 +15,10 @@ html {
     width: 70%;
     height: 50%;
     border-radius: 50px;
-    background: #283746;
-    box-shadow:  20px 20px 60px #222f3c,
-             -20px -20px 60px #2e3f51
+    border-radius: 50px;
+background: #1a1a1d;
+box-shadow:  20px 20px 60px #161619,
+             -20px -20px 60px #1e1e21;
     
 }
 
