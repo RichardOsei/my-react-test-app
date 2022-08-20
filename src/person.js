@@ -90,7 +90,7 @@ class Person extends React.Component {
 class Person extends React.Component{
   constructor(){
     super();
-    let this.state;
+    this.state = ""
   }
   
   Football() {
@@ -99,12 +99,12 @@ class Person extends React.Component{
     }
   
     return (
-      <button onClick={shoot}>Take the shot!</button>
+      <button class = 'Qjump' onClick={shoot}>Take the shot!</button>
     );
   }
   
   render(){
-    return this.Football
+    return this.Football()
   }
   
 }

@@ -107,9 +107,9 @@ class Car extends React.Component {
 }
 */
 
-let tap = 'Day Trader and a data engineer'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Person favcol = 'ash' />);
+root.render(<Person favcol/>);
 
 
 
