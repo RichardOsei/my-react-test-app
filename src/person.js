@@ -94,12 +94,12 @@ class Person extends React.Component{
   }
   
   Football() {
-    const shoot = () => {
-      alert("Great Shot!");
+    const shoot = (a) => {
+      alert(a);
     }
   
     return (
-      <button class = 'Qjump' onClick={shoot}>Take the shot!</button>
+      <button class = 'Qjump' onClick={shoot('Goal')}>Take the shot!</button>
     );
   }
   
