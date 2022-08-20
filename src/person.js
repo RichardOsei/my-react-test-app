@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-// const message = () => {
+/*const message = () => {
 //     const name = "Jesse";
 //     const age = 10;
 //     return age > 50 ? "Grown":"Young" ;
@@ -76,10 +76,36 @@ class Person extends React.Component {
     }, 3000)
   }
 
+  shouldComponentUpdate() {
+    return true;
+  }
+
   render() {
     return (
       <h1>I have a {this.state.condition} {this.state.color} Benz {this.state.car} {this.state.period} edition.</h1>
     );
   }
+}*/
+
+class Person extends React.Component{
+  constructor(){
+    super();
+    let this.state;
+  }
+  
+  Football() {
+    const shoot = () => {
+      alert("Great Shot!");
+    }
+  
+    return (
+      <button onClick={shoot}>Take the shot!</button>
+    );
+  }
+  
+  render(){
+    return this.Football
+  }
+  
 }
 export default Person;
